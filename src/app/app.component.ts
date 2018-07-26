@@ -52,7 +52,7 @@ export class AppComponent {
 
     this.show = !this.show;
 
-    if(this.msg != null && this.msg != undefined){
+    if(this.msg != null && this.msg != undefined && this.msg != ""){
       this.save() ;
     }
    
