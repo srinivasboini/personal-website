@@ -1,0 +1,208 @@
+html, body {
+    height: 100%;
+  }
+  body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+  }
+  ::selection {
+    background: #33CD5F;
+  }
+  .main-container {
+    margin: 0;
+    padding: 40px;
+    max-width: 400px;
+    min-height: 750px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .black-bg {
+    margin-left: 401px;
+    height: 100%;
+    min-height: 750px;
+    background-color: black;
+  }
+ .img-container {
+    height: inherit;
+    background-size: cover;
+    background-position: center;
+    content:url("./../assets/img/abstract.jpg");
+    background-color: black;
+  }
+  .header h1 {
+    font-weight: 100;
+    font-size: 300%;
+    letter-spacing: 1px;
+    margin-top: 0;
+  }
+  .main-image, .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main-image img {
+    width: 150px;
+    border-radius: 75px;
+  }
+  .content {
+    font-weight: 300;
+    color: #333;
+    font-size: 115%;
+    letter-spacing: 0.5px;
+  }
+  .content p {
+    margin-bottom: 20px;
+  }
+  .social-icons {
+    margin: 0 !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 0 40px 40px 40px;
+  }
+  .btnanimate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF !important;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+  .social-icons a {
+    display: inline-block;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 0;
+  }
+  a, a .icon:before {
+    color: #2db855 !important;
+  }
+  a:hover, a:hover .icon:before {
+    color: #33CD5F !important;
+    text-decoration: none !important;
+  }
+  a::selection {
+    color: #ffffff;
+  }
+  @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  
+  .fade-in {
+    opacity:0;
+    opacity:1 \9;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
+  
+  .delay-one {
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms;
+  }
+  
+  .delay-two {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @-moz-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in-down {
+    opacity:0;
+    opacity:1 \9;
+    -webkit-animation:fadeInDown ease-in 1;
+    -moz-animation:fadeInDown ease-in 1;
+    animation:fadeInDown ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
