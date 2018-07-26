@@ -49,7 +49,7 @@ export class AppComponent {
 
   saveMsg() {
    // console.log(this.msg);
-
+    window.scroll(0,0);
     this.show = !this.show;
 
     if(this.msg != null && this.msg != undefined && this.msg != ""){
