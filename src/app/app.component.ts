@@ -52,6 +52,14 @@ export class AppComponent {
 
     this.show = !this.show;
 
+    if(this.msg != null && this.msg != undefined){
+      this.save() ;
+    }
+   
+  }
+
+  save(){
+
     let ref = this.fb.ref().child("Feedback");
     let key = ref.push().key;
 
