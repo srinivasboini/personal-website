@@ -8,6 +8,10 @@ html, body {
   ::selection {
     background: #33CD5F;
   }
+  .area{
+    height:auto;
+    width:300px; 
+  }
   .main-container {
     margin: 0;
     padding: 40px;
@@ -22,6 +26,9 @@ html, body {
     height: 100%;
     min-height: 750px;
     background-color: black;
+  }
+  .swal2-container{
+    margin-top : 280px !important ;
   }
  .img-container {
     height: inherit;

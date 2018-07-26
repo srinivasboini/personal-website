@@ -5,15 +5,18 @@
   <div class="main-image fade-in delay-one">
     <img src="../assets/img/me.jpg">
   </div>
-  <div class="content fade-in delay-two">
+  <div id="info" class="content fade-in delay-two">
     <p>Full Stack Developer having hands on experience on e2e web, mobile and desktop applications</p>
     <p>Born and raised in pearl city of India. I studied computer science at Jawaharlal Nehru Technological University.</p>
     <p>I enjoy helping people while continuing to learn myself.</p>
     <p>Here is my LinkedIn profile <a target="_blank" href="https://www.linkedin.com/in/srinivas-boini-a63713153">Srinivas</a></p>
     <p>Any queries, suggestions, feedback please click <a (click)="feedback()">here</a></p>
       <div *ngIf="show">
-        <textarea ng-model="msg"></textarea>
-        <a href="#" class="action-button shadow animate blue" (click)="saveMsg()">submit</a>
+        <div class="form-group">
+         
+          <textarea class="form-control rounded-0" [(ngModel)]="msg" rows="3"></textarea>
+      </div>
+        <button class="btn btn-success btn-block" (click)="saveMsg()">Submit</button>
       </div>
   </div>
   
